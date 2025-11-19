@@ -75,7 +75,7 @@
 
         System.out.println("---------SHAPE 2D AREA'S-----------");
         for(Shape2D shp : shapes){
-            System.out.println(shp.toString());
+            System.out.println(shp.toString());// to print Area's only write  System.out.println(shp.getArea());
         }
 
         Cylinder cylinder = new Cylinder(3.4,2.1);
@@ -89,10 +89,10 @@
         for(Shape3D shape3D : shapes2){
 //            System.out.println("-----SHAPE 3D AREA'S AND VOLUME'S---");
             System.out.println(shape3D.toString());
-          //  System.out.println(shape3D.getArea());
+          //  System.out.println(shape3D.getArea());// for 3D Area 
 
           //  System.out.println("---SHAPE 3D VOLUMES----");
-            //System.out.println(shape3D.getVolume());
+            //System.out.println(shape3D.getVolume());// For 3D volumes
         }
         //        ogrenci1 ogr1 = new ogrenci1();
 //        ogrenci2 ogr2 = new ogrenci2();
